@@ -1,1 +1,11 @@
+name: "Java Actions"
+description: "Java sample"
+author: "javierogando7@gmail.com"
 
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "coffe"
+  color: "blue"
