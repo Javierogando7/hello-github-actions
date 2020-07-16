@@ -1,7 +1,7 @@
 # Alpine Linux with OpenJDK JRE
-FROM openjdk:8-jre-alpine
+FROM openjdk:8
 # copy WAR into image
 COPY HelloWorld.java . 
 # compile application
-RUN type javac
-CMD ["ls", "/usr/bin/java"]
+RUN javac HelloWorld.java
+CMD ["java", "HelloWorld"]
