@@ -4,4 +4,4 @@ FROM openjdk:8-jre-alpine
 COPY HelloWorld.java . 
 # compile application
 RUN type java
-CMD["ls", "/usr/bin/java"]
+CMD ["ls", "/usr/bin/java"]
