@@ -4,4 +4,4 @@ FROM openjdk:8
 COPY HelloWorld.java . 
 # compile application
 RUN javac HelloWorld.java
-CMD ["java", "HelloWorld.class"]
+CMD ["java", "HelloWorld"]
