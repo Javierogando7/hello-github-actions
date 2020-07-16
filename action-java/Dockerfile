@@ -3,5 +3,5 @@ FROM openjdk:8-jre-alpine
 # copy WAR into image
 COPY HelloWorld.java . 
 # compile application
-RUN type java
+RUN type javac
 CMD ["ls", "/usr/bin/java"]
